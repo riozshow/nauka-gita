@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #c9e3e3;
+  color: #0e8798;
+  line-height: 1.5;
+  letter-spacing: 0.175rem;
+  font-family: "Prata", serif;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 18px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+  border-bottom: 2px solid #0e8798;
+  margin: 20px 0 40px 0;
+}
+
+h2::after {
+  width: 100%;
+  background-color: #0e8798;
+  height: 1px;
+}
+
+p {
+  font-weight: 600;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: large;
+}
+
+p.credits {
+  font-style: italic;
+  margin: 50px 0;
+  font-size: small;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: inline-block;
+}
