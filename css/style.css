@@ -29,12 +29,6 @@ h2 {
   margin: 20px 0 40px 0;
 }
 
-h2::after {
-  width: 100%;
-  background-color: #0e8798;
-  height: 1px;
-}
-
 p {
   font-weight: 600;
   font-family: "Yanone Kaffeesatz", sans-serif;
