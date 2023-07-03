@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #c9e3e3;
+  background: linear-gradient(to bottom, #c9e3e3 0%, #b5e5e9 100%);
   color: #0e8798;
   line-height: 1.5;
   letter-spacing: 0.175rem;
