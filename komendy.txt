@@ -1,0 +1,5 @@
+// uruchamia html-validate na wszystkich plikach html projektu
+npm exec html-validate "./**/*.html"
+
+/* plik .htmlvalidateignore (skopiowany .gitignore) 
+pomija skanowanie w folderach gdzie nie jest to wymagane */
